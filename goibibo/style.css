@@ -1,0 +1,490 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    background: rgb(238, 242, 248);
+    box-sizing: border-box;
+}
+
+.nav-bg-white {
+    background-color: #ffffff;
+}
+
+
+
+.logo {
+    width: 104px;
+    height: 34px;
+    background-position: 0px 0px;
+}
+
+
+
+.header-sprite {
+    display: block;
+    flex-shrink: 0;
+    background: url(./Images/giHappyheaderSprite.webp) 0% 0% / 125px 200px no-repeat;
+}
+
+.nav-icon-flights1 {
+    width: 24px;
+    height: 18px;
+    background-position: -1px -39px;
+}
+.nav-icon-flights2 {
+    width: 24px;
+    height: 18px;
+    background-position: -28px -39px;
+}
+
+.nav-icon-hotels1 {
+    width: 18px;
+    height: 18px;
+    background-position: -4px -60px;
+}
+
+.nav-icon-hotels2 {
+    width: 18px;
+    height: 18px;
+    background-position: -30px -60px;
+}
+
+.nav-icon-trains1 {
+    width: 17px;
+    height: 20px;
+    background-position: -5px -125px;
+}
+
+.nav-icon-trains2 {
+    width: 17px;
+    height: 20px;
+    background-position: -28px -125px;
+}
+
+.nav-icon-cabs1 {
+    width: 19px;
+    height: 16px;
+    background-position: -4px -106px;
+}
+.nav-icon-cabs2 {
+    width: 19px;
+    height: 16px;
+    background-position: -28px -106px;
+}
+
+.nav-icon-bus1 {
+    width: 18px;
+    height: 18px;
+    background-position: -5px -83px;
+}
+.nav-icon-bus2 {
+    width: 18px;
+    height: 18px;
+    background-position: -28px -83px;
+}
+
+.mytrip-icon {
+    width: 23px;
+    height: 21px;
+    background-position: -54px -75px;
+    margin-top: 14px;
+}
+
+.user-icon {
+    width: 28px;
+    height: 28px;
+    background-position: -53px -41px;
+}
+
+
+
+.gr-append-right5 {
+    margin-right: 5px;
+}
+
+.nav-flex {
+    display: flex;
+}
+
+.nav-go-logo {
+    padding: 10px 50px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    border: 1px solid grey;
+    margin-left: 10px;
+    border-radius: 18px;
+}
+
+.nav-logo-link.nav-sprite {
+    width: 104px;
+    height: 34px;
+    background-position: 0px 0px;
+}
+
+.nav-sprite {
+    display: block;
+    flex-shrink: 0;
+    background: url(./Images/giHappyheaderSprite.webp) 0% 0% / 125px 200px no-repeat;
+}
+
+.sm-font {
+    margin-bottom: 10px;
+    padding-top: 7px;
+    font-size: 10px;
+}
+
+.md-font {
+    margin-top: -12px;
+    font-size: 15px;
+}
+
+.gap-150 {
+    width: 150px;
+}
+
+.position-centre {
+    position: relative;
+    top: 7px;
+}
+
+.navicon-centre {
+    position: relative;
+    top: 8px;
+    padding-left: 10px;
+
+}
+
+.navicon-p-centre {
+    position: relative;
+    top: 13px;
+    padding: 0px 8px;
+    font-size: 12px;
+    color: #0d6efd;
+}
+
+.booking-flight {
+    background: url(./Images/flight-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    top: 0px;
+    margin-bottom: 68px;
+}
+
+.flight-back-shadow {
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 15px;
+}
+
+.color-text-white {
+    color: #fff;
+    font-size: 22px;
+}
+
+.from-input {
+    width: 250px;
+}
+
+.from-input-class {
+    width: 180px;
+}
+
+.input-label {
+    font-size: 14px;
+    display: inline-flex;
+    font-weight: 700;
+    color: rgb(119, 119, 119);
+    padding: 0px 4px;
+    position: relative;
+    top: -14px;
+    left: 14px;
+    background-color: rgb(255, 255, 255);
+}
+
+.flight-input-1 {
+    width: 250px;
+    margin-right: 10px;
+}
+
+.swap-icon {
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    right: -236px;
+    top: -55px;
+    z-index: 1;
+}
+
+.flight-input-2 {
+    width: 140px;
+    margin-right: 10px;
+}
+
+.input-placeholder {
+    position: relative;
+    top: -6px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(119, 119, 119);
+}
+
+.input-placeholder-1 {
+    position: relative;
+    top: -6px;
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(119, 119, 119);
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.input-placeholder-2 {
+    position: relative;
+    top: -6px;
+    padding-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(119, 119, 119);
+    margin: -18px 0px 0px 0px;
+}
+
+
+.flight-fair-tag {
+    display: flex;
+    align-items: center;
+    width: 58px;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(119, 119, 119);
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.flight-fair-type {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 750px;
+    margin: 0px;
+}
+
+.flight-fair-list {
+    display: flex;
+    margin: -15px;
+    padding: 0px;
+}
+
+.type {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 5px;
+    border-right: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(242, 242, 242);
+    font-size: 12px;
+}
+
+.type:first-child {
+    border-radius: 8px 0px 0px 8px;
+}
+
+.type:last-child {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.type-button {
+    width: 13px;
+    height: 13px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 9px;
+    position: relative;
+}
+
+.flight-trending {
+    flex-shrink: 0;
+    margin-left: 20px;
+    border-left: 2px solid rgb(242, 242, 242);
+    padding-left: 10px;
+}
+
+.trend-search {
+    display: flex;
+    align-items: center;
+    width: 58px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 15px;
+}
+
+.trend-place {
+    font-size: 12px;
+    color: black;
+}
+
+.trending-field {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    padding: 7px 13px;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    height: 45px;
+    justify-content: center
+}
+
+.flight-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: -54px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.search-button {
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 109, 56);
+    border-radius: 30px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 16px 45px;
+    cursor: pointer;
+    margin-bottom: -30px;
+}
+
+.search-button-flight {
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 109, 56);
+    border-radius: 30px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 16px 45px;
+    cursor: pointer;
+}
+
+.triangle {
+    margin-left: 3px;
+    border-right: 3px solid; 
+    border-bottom: 3px solid;
+    height: 10px;
+    width: 10px;
+    transform: rotate(-45deg);
+}
+
+.deals-banner {
+    background: linear-gradient(rgb(246, 198, 188) 0%, rgb(255, 255, 255) 272.89%);
+    background: linear-gradient(186.44deg, rgb(255, 202, 179) 10.03%, rgb(255, 237, 230) 91.57%, rgb(255, 255, 255) 277.6%);
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.deals-banner-img {
+    padding: 15px 0px 5px 50px ;
+    height: 120px;
+}
+
+.deals-banner-img img {
+    height: 100%;
+}
+
+.deal-count-down {
+    background: linear-gradient(91.85deg, rgb(232, 140, 99) 8.32%, rgb(230, 102, 76) 100%);
+    padding: 8px 20px 8px 30px;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 100px;
+    font-weight: 400;
+    margin-left: -35px;
+}
+
+.clock{
+    right: 0px;
+}
+
+.clock-img {
+    color: #fff;
+    height: 100px;
+}
+
+.clock-img img {
+    height: 100%;
+    position: relative;
+}
+
+.deal-card {
+    width: 350px;
+    height: 250px;
+}
+
+.card {
+    height: 100%;
+}
+
+.deal-card-img {
+    height: 60%;
+}
+
+.go-safe-bg {
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(251, 239, 199) 100%) 0% 0% / contain;
+    padding: 10px 30px;
+}
+
+.train-sprite {
+    background-image: url(./Images/train-sprite.webp);
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.train-sprite-1 {
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.train-sprite-1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.train-sprite-status {
+    background-position: -1px -80px;
+}
+
+.train-sprite-coach {
+    background-position: -1px -40px;
+}
